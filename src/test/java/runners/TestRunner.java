@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
      * GetToKnow, 
      * Download, 
      * ImportContacts */
-    features = "src/test/resources/features/DBConnection.feature",
+    features = "src/test/resources/features/ImportContacts.feature",
     glue = {"testingcode"},
     plugin = {"pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
 )
