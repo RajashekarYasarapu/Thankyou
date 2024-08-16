@@ -112,7 +112,8 @@ public class AddGetToKnow {
 		Thread.sleep(2000);
 		//Take a screenshot
 		takeScreenshot("screenshot");
-	}
+		Thread.sleep(3000);
+		}
 	@Then("Establish connection with devsql server")
 	public void establish_connection_with_devsql_server() throws InterruptedException, ClassNotFoundException {
 		    String jdbcurl = AppConfigs.getJDBCurl();
