@@ -48,7 +48,7 @@ public class AddGetToKnow {
 	public int ID;
 	public String WhoShouldKnow = "Ruthvik Pashikanti";
 	public String WhomToKnow = "Ravinder Davuda";
-	
+	public int sampleid;
 	//Function call for taking screenshot
 	private void takeScreenshot(String screenshotName) {
         try {
