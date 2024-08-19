@@ -60,9 +60,10 @@ public class Contacts {
 	}
 	
 	@Given("Dev Link URL")
-	public void dev_link_url() {
+	public void dev_link_url() throws InterruptedException {
 		 System.setProperty("webdriver.chrome.driver","src/test/resources/drivers/chromedriver.exe");
 		 driver = new ChromeDriver();
+		 Thread.sleep(2000);
 	}
 	@When("User login into dev link with correct credentials")
 	public void user_login_into_dev_link_with_correct_credentials() throws InterruptedException, AWTException {
